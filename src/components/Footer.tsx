@@ -65,6 +65,7 @@ export default function Footer() {
             <h4 style={{ color: '#fff', marginBottom: '20px', fontFamily: 'var(--font-display)' }}>Customer Service</h4>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '12px' }}>
               <li><Link href="/contact">Contact Us / Support</Link></li>
+              <li><Link href="/services">Installation Services</Link></li>
               <li><Link href="/policies/shipping">Shipping & Delivery Policy</Link></li>
               <li><Link href="/policies/returns">Refunds & Returns Policy</Link></li>
               <li><Link href="/policies/billing">Billing & Secure Payment Terms</Link></li>

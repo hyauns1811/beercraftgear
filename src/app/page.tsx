@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Truck, RotateCcw, ShieldCheck, HelpCircle, ArrowRight } from 'lucide-react';
+import { Truck, RotateCcw, ShieldCheck, HelpCircle, ArrowRight, Wrench } from 'lucide-react';
 import { PRODUCTS } from '@/data/products';
 import ProductCard from '@/components/ProductCard';
 
@@ -207,6 +207,127 @@ export default function HomePage() {
             {featuredProducts.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Installation Services Promo Section */}
+      <section className="section" style={{ 
+        backgroundColor: '#090d16', 
+        borderTop: '1px solid var(--border)',
+        paddingTop: '80px',
+        paddingBottom: '80px',
+        position: 'relative',
+        overflow: 'hidden'
+      }}>
+        <div style={{
+          position: 'absolute',
+          top: '-20%',
+          right: '-10%',
+          width: '500px',
+          height: '500px',
+          borderRadius: '50%',
+          background: 'radial-gradient(circle, rgba(217, 119, 6, 0.05) 0%, rgba(0,0,0,0) 70%)',
+          pointerEvents: 'none'
+        }} />
+
+        <div className="container">
+          <div style={{ 
+            display: 'grid', 
+            gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', 
+            gap: '48px', 
+            alignItems: 'center' 
+          }}>
+            {/* Left side: content */}
+            <div>
+              <span style={{ color: 'var(--primary)', fontWeight: 600, fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '2px', display: 'block', marginBottom: '12px' }}>Professional Setups</span>
+              <h2 style={{ fontSize: '2.5rem', lineHeight: '1.2', marginBottom: '20px', color: '#fff', fontFamily: 'var(--font-display)' }}>
+                Need Help Setting Up Your Bar System?
+              </h2>
+              <p style={{ color: 'var(--text-muted)', lineHeight: '1.7', marginBottom: '24px', fontSize: '1.05rem' }}>
+                We provide affordable and professional installation services for commercial bars, breweries, and premium home dispense setups. Let our experts handle the heavy lifting.
+              </p>
+              
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', marginBottom: '32px' }}>
+                <div style={{ display: 'flex', gap: '12px', alignItems: 'flex-start' }}>
+                  <div style={{ color: 'var(--primary)', marginTop: '2px', display: 'flex', alignItems: 'center' }}>
+                    <Wrench size={18} />
+                  </div>
+                  <div>
+                    <strong style={{ color: '#fff', fontSize: '0.95rem' }}>Full System Installation</strong>
+                    <p style={{ color: 'var(--text-muted)', fontSize: '0.85rem', marginTop: '2px' }}>Complete setup of Premium Kegerators, Tapping Gear, and Lines.</p>
+                  </div>
+                </div>
+                <div style={{ display: 'flex', gap: '12px', alignItems: 'flex-start' }}>
+                  <div style={{ color: 'var(--primary)', marginTop: '2px', display: 'flex', alignItems: 'center' }}>
+                    <Wrench size={18} />
+                  </div>
+                  <div>
+                    <strong style={{ color: '#fff', fontSize: '0.95rem' }}>Couplers, Faucets & Shanks</strong>
+                    <p style={{ color: 'var(--text-muted)', fontSize: '0.85rem', marginTop: '2px' }}>Precision mounting and calibration of Sankey couplers and drafts.</p>
+                  </div>
+                </div>
+              </div>
+
+              <Link href="/services" className="btn btn-primary" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px' }}>
+                Explore Services & Packages <ArrowRight size={16} />
+              </Link>
+            </div>
+
+            {/* Right side: visual highlight card */}
+            <div className="glass-card" style={{ 
+              padding: '40px', 
+              position: 'relative', 
+              border: '1px solid rgba(217, 119, 6, 0.15)',
+              background: 'linear-gradient(135deg, rgba(217, 119, 6, 0.05) 0%, rgba(11, 15, 23, 0.9) 100%)'
+            }}>
+              <div style={{ 
+                position: 'absolute', 
+                top: '20px', 
+                right: '20px', 
+                backgroundColor: 'rgba(217, 119, 6, 0.1)', 
+                color: 'var(--primary-light)', 
+                fontSize: '0.75rem', 
+                fontWeight: 700, 
+                padding: '4px 10px', 
+                borderRadius: '100px',
+                textTransform: 'uppercase',
+                letterSpacing: '1px'
+              }}>
+                Best Deal
+              </div>
+              <h3 style={{ fontSize: '1.4rem', color: '#fff', marginBottom: '8px', fontFamily: 'var(--font-display)' }}>Premium Collectible Set</h3>
+              <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginBottom: '24px', lineHeight: '1.5' }}>
+                Complete installation and calibration of premium draft gear, couplers, and shanks at the lowest rates.
+              </p>
+              
+              <div style={{ borderTop: '1px solid rgba(255,255,255,0.05)', borderBottom: '1px solid rgba(255,255,255,0.05)', paddingTop: '20px', paddingBottom: '20px', marginBottom: '28px' }}>
+                <span style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>Affordable Professional Pricing</span>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: '8px', marginTop: '4px' }}>
+                  <span style={{ fontSize: '2.5rem', fontWeight: 800, color: 'var(--primary-light)' }}>$100 - $500</span>
+                  <span style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>/ depending on complexity</span>
+                </div>
+              </div>
+
+              <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '12px', fontSize: '0.9rem', color: 'var(--text-muted)', marginBottom: '32px' }}>
+                <li style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                  <span style={{ color: 'var(--success)' }}>✓</span> Professional Kegerator Integration
+                </li>
+                <li style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                  <span style={{ color: 'var(--success)' }}>✓</span> Sankey Coupler Mounting & Tuning
+                </li>
+                <li style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                  <span style={{ color: 'var(--success)' }}>✓</span> Draft Faucets & Shank Calibrations
+                </li>
+                <li style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                  <span style={{ color: 'var(--success)' }}>✓</span> Full CO2 Leak & Pressure Safety Audits
+                </li>
+              </ul>
+
+              <Link href="/contact" className="btn btn-secondary" style={{ width: '100%', textAlign: 'center', justifyContent: 'center' }}>
+                Contact Us to Discuss Setup
+              </Link>
+            </div>
           </div>
         </div>
       </section>

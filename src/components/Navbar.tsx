@@ -84,6 +84,14 @@ export default function Navbar() {
               </li>
               <li>
                 <Link 
+                  href="/services" 
+                  style={{ color: isActive('/services') ? 'var(--primary)' : 'var(--text-main)' }}
+                >
+                  Services
+                </Link>
+              </li>
+              <li>
+                <Link 
                   href="/contact" 
                   style={{ color: isActive('/contact') ? 'var(--primary)' : 'var(--text-main)' }}
                 >
@@ -190,6 +198,7 @@ export default function Navbar() {
           }}>
             <Link href="/" onClick={() => setMobileMenuOpen(false)}>Home</Link>
             <Link href="/shop" onClick={() => setMobileMenuOpen(false)}>Shop Gear</Link>
+            <Link href="/services" onClick={() => setMobileMenuOpen(false)}>Installation Services</Link>
             <Link href="/contact" onClick={() => setMobileMenuOpen(false)}>Contact Us</Link>
             <div style={{ borderTop: '1px solid rgba(255,255,255,0.05)', paddingTop: '16px', display: 'flex', flexDirection: 'column', gap: '12px' }}>
               <span style={{ fontWeight: 600, color: 'var(--primary-light)' }}>Policies:</span>
