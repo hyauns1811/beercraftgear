@@ -72,12 +72,12 @@ export default function ContactPage() {
                 <div>
                   <h4 style={{ fontSize: '1rem', color: '#fff', marginBottom: '4px' }}>Physical Office & Warehouse Address</h4>
                   <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem', lineHeight: '1.6' }}>
-                    <strong>BEER BABES FAMILY LTD</strong><br />
-                    163 Dalhurst Way NW<br />
-                    Calgary AB T3A 1P1 CA
+                    <strong>FUNKY BUDDHA BREWERY LLC</strong><br />
+                    1201 NE 38TH ST, A-1<br />
+                    OAKLAND PARK, FL 33334
                   </p>
                   <p style={{ fontSize: '0.8rem', color: 'var(--primary-light)', marginTop: '4px' }}>
-                    * Beer Craft Gear is a website directly owned and operated by BEER BABES FAMILY LTD.
+                    * Beer Craft Gear is a website directly owned and operated by FUNKY BUDDHA BREWERY LLC.
                   </p>
                 </div>
               </li>
@@ -149,7 +149,7 @@ export default function ContactPage() {
                 <div>
                   <h4 style={{ fontSize: '1rem', color: '#fff', marginBottom: '4px' }}>Business Hours</h4>
                   <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem' }}>
-                    Monday - Friday: 9:00 AM - 5:00 PM (Mountain Standard Time)
+                    Monday - Friday: 9:00 AM - 5:00 PM (Eastern Standard Time)
                   </p>
                   <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '2px' }}>
                     Closed on Saturdays, Sundays, and statutory holidays.

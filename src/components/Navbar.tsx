@@ -27,7 +27,7 @@ export default function Navbar() {
       }}>
         <div className="container flex-between" style={{ flexWrap: 'wrap', gap: '8px' }}>
           <div>
-            <span>Owned and operated by <strong>BEER BABES FAMILY LTD</strong></span>
+            <span>Owned and operated by <strong>FUNKY BUDDHA BREWERY LLC</strong></span>
           </div>
           <div style={{ display: 'flex', gap: '16px' }}>
             <span style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>

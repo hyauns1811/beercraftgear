@@ -25,7 +25,7 @@ export async function POST(request: Request) {
         metadata: {
           itemsCount: cartItems?.length || 0,
           store: 'Beer Craft Gear',
-          company: 'BEER BABES FAMILY LTD'
+          company: 'FUNKY BUDDHA BREWERY LLC'
         }
       });
 

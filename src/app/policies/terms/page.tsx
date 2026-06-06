@@ -13,7 +13,7 @@ export default function TermsOfServicePage() {
         <p className="text-muted">Last Updated: June 5, 2026</p>
 
         <p>
-          Welcome to <strong>Beer Craft Gear</strong> (beercraftgear.com). This website is owned and operated by <strong>BEER BABES FAMILY LTD</strong>. Throughout the site, the terms "we", "us" and "our" refer to BEER BABES FAMILY LTD.
+          Welcome to <strong>Beer Craft Gear</strong> (beercraftgear.com). This website is owned and operated by <strong>FUNKY BUDDHA BREWERY LLC</strong>. Throughout the site, the terms "we", "us" and "our" refer to FUNKY BUDDHA BREWERY LLC.
         </p>
         <p>
           By visiting our site and/or purchasing draft beer equipment from us, you engage in our "Service" and agree to be bound by the following terms and conditions ("Terms of Service", "Terms"). Please read these terms carefully before using our website.
@@ -43,12 +43,12 @@ export default function TermsOfServicePage() {
 
         <h2>5. Limitation of Liability</h2>
         <p>
-          In no event shall <strong>BEER BABES FAMILY LTD</strong>, our directors, officers, employees, or affiliates be liable for any injury, loss, claim, or any direct, indirect, incidental, punitive, special, or consequential damages of any kind, including, without limitation lost profits, lost revenue, lost savings, loss of data, replacement costs, or any similar damages, whether based in contract, tort (including negligence), strict liability or otherwise, arising from your use of any of the services or any products procured using the service.
+          In no event shall <strong>FUNKY BUDDHA BREWERY LLC</strong>, our directors, officers, employees, or affiliates be liable for any injury, loss, claim, or any direct, indirect, incidental, punitive, special, or consequential damages of any kind, including, without limitation lost profits, lost revenue, lost savings, loss of data, replacement costs, or any similar damages, whether based in contract, tort (including negligence), strict liability or otherwise, arising from your use of any of the services or any products procured using the service.
         </p>
 
         <h2>6. Governing Law</h2>
         <p>
-          These Terms of Service and any separate agreements whereby we provide you Services shall be governed by and construed in accordance with the laws of the <strong>Province of Alberta and the federal laws of Canada</strong>, without regard to conflict of law principles. Any legal actions must be brought in Calgary, Alberta, Canada.
+          These Terms of Service and any separate agreements whereby we provide you Services shall be governed by and construed in accordance with the laws of the <strong>State of Florida and the federal laws of the United States</strong>, without regard to conflict of law principles. Any legal actions must be brought in Broward County, Florida, United States.
         </p>
 
         <h2>7. Contact Information</h2>
@@ -56,9 +56,9 @@ export default function TermsOfServicePage() {
           Questions about the Terms of Service should be sent to us at:
         </p>
         <p style={{ paddingLeft: '16px', borderLeft: '3px solid var(--primary)', color: 'var(--text-main)' }}>
-          <strong>BEER BABES FAMILY LTD</strong><br />
-          163 Dalhurst Way NW<br />
-          Calgary AB T3A 1P1 CA<br />
+          <strong>FUNKY BUDDHA BREWERY LLC</strong><br />
+          1201 NE 38TH ST, A-1<br />
+          OAKLAND PARK, FL 33334<br />
           Phone: +1 (416) 925-6222<br />
           Email: cs@beercraftgear.com
         </p>

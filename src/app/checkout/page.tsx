@@ -120,7 +120,7 @@ export default function CheckoutPage() {
     city: '',
     state: '',
     postalCode: '',
-    country: 'CA'
+    country: 'US'
   });
 
   const [useDifferentBilling, setUseDifferentBilling] = useState(false);
@@ -131,7 +131,7 @@ export default function CheckoutPage() {
     city: '',
     state: '',
     postalCode: '',
-    country: 'CA'
+    country: 'US'
   });
 
   // Stripe Session Config State
@@ -292,23 +292,23 @@ export default function CheckoutPage() {
               <div style={{ display: 'grid', gridTemplateColumns: '2fr 1fr 1fr', gap: '15px' }} className="address-trio">
                 <div className="form-group">
                   <label className="form-label">City *</label>
-                  <input type="text" name="city" required value={shippingInfo.city} onChange={handleShippingChange} className="form-control" placeholder="Calgary" />
+                  <input type="text" name="city" required value={shippingInfo.city} onChange={handleShippingChange} className="form-control" placeholder="Oakland Park" />
                 </div>
                 <div className="form-group">
                   <label className="form-label">State/Province *</label>
-                  <input type="text" name="state" required value={shippingInfo.state} onChange={handleShippingChange} className="form-control" placeholder="AB" />
+                  <input type="text" name="state" required value={shippingInfo.state} onChange={handleShippingChange} className="form-control" placeholder="FL" />
                 </div>
                 <div className="form-group">
                   <label className="form-label">ZIP/Postal Code *</label>
-                  <input type="text" name="postalCode" required value={shippingInfo.postalCode} onChange={handleShippingChange} className="form-control" placeholder="T2P 1A1" />
+                  <input type="text" name="postalCode" required value={shippingInfo.postalCode} onChange={handleShippingChange} className="form-control" placeholder="33334" />
                 </div>
               </div>
 
               <div className="form-group" style={{ marginBottom: '24px' }}>
                 <label className="form-label">Country *</label>
                 <select name="country" required value={shippingInfo.country} onChange={handleShippingChange} className="form-control">
-                  <option value="CA">Canada (CA)</option>
                   <option value="US">United States (US)</option>
+                  <option value="CA">Canada (CA)</option>
                 </select>
               </div>
 
@@ -361,8 +361,8 @@ export default function CheckoutPage() {
                   <div className="form-group">
                     <label className="form-label">Country *</label>
                     <select name="country" required value={billingInfo.country} onChange={handleBillingChange} className="form-control">
-                      <option value="CA">Canada (CA)</option>
                       <option value="US">United States (US)</option>
+                      <option value="CA">Canada (CA)</option>
                     </select>
                   </div>
                 </div>

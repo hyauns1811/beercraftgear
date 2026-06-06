@@ -13,7 +13,7 @@ export default function PrivacyPolicyPage() {
         <p className="text-muted">Last Updated: June 5, 2026</p>
 
         <p>
-          At <strong>Beer Craft Gear</strong> (beercraftgear.com), owned and operated by <strong>BEER BABES FAMILY LTD</strong>, we value the trust you place in us when sharing your personal information. This Privacy Policy describes how we collect, use, store, and protect your data when you visit or shop on our website.
+          At <strong>Beer Craft Gear</strong> (beercraftgear.com), owned and operated by <strong>FUNKY BUDDHA BREWERY LLC</strong>, we value the trust you place in us when sharing your personal information. This Privacy Policy describes how we collect, use, store, and protect your data when you visit or shop on our website.
         </p>
 
         <h2>1. Information We Collect</h2>
@@ -77,9 +77,9 @@ export default function PrivacyPolicyPage() {
           If you have questions about our privacy practices, please contact us:
         </p>
         <p style={{ paddingLeft: '16px', borderLeft: '3px solid var(--primary)', color: 'var(--text-main)' }}>
-          <strong>BEER BABES FAMILY LTD</strong><br />
-          163 Dalhurst Way NW<br />
-          Calgary AB T3A 1P1 CA<br />
+          <strong>FUNKY BUDDHA BREWERY LLC</strong><br />
+          1201 NE 38TH ST, A-1<br />
+          OAKLAND PARK, FL 33334<br />
           Phone: +1 (416) 925-6222<br />
           Email: cs@beercraftgear.com
         </p>

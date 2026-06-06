@@ -7,7 +7,7 @@ import ProductCard from '@/components/ProductCard';
 
 export const metadata = {
   title: 'Beer Craft Gear | Premium Draft Beer Equipment & Systems',
-  description: 'Shop commercial-grade kegerators, tapping systems, gas regulators, towers, and drip trays at Beer Craft Gear. Owned by Beer Babes Family LTD.',
+  description: 'Shop commercial-grade kegerators, tapping systems, gas regulators, towers, and drip trays at Beer Craft Gear. Owned by FUNKY BUDDHA BREWERY LLC.',
 };
 
 export default function HomePage() {
@@ -220,7 +220,7 @@ export default function HomePage() {
         <div className="container" style={{ maxWidth: '800px', textAlign: 'center' }}>
           <h2 style={{ fontSize: '2rem', marginBottom: '20px' }}>Shop with Absolute Confidence</h2>
           <p style={{ color: 'var(--text-muted)', lineHeight: '1.8', fontSize: '1.05rem', marginBottom: '24px' }}>
-            <strong>Beer Craft Gear</strong> (beercraftgear.com) is an authorized online retail storefront owned and operated directly by <strong>BEER BABES FAMILY LTD</strong>, headquartered at 163 Dalhurst Way NW, Calgary, Alberta, Canada. We are fully registered, bonded, and compliant with all local corporate standards and international e-commerce guidelines.
+            <strong>Beer Craft Gear</strong> (beercraftgear.com) is an authorized online retail storefront owned and operated directly by <strong>FUNKY BUDDHA BREWERY LLC</strong>, headquartered at 1201 NE 38TH ST, A-1, OAKLAND PARK, FL 33334. We are fully registered, bonded, and compliant with all local corporate standards and international e-commerce guidelines.
           </p>
           <div style={{ display: 'flex', justifyContent: 'center', gap: '24px', flexWrap: 'wrap' }}>
             <Link href="/policies/shipping" style={{ textDecoration: 'underline', color: '#fff' }}>Shipping Policies</Link>

@@ -7,7 +7,7 @@ import CartDrawer from "@/components/CartDrawer";
 
 export const metadata: Metadata = {
   title: "Beer Craft Gear | Premium Draft Beer Equipment & Systems",
-  description: "Shop commercial-grade kegerators, tapping systems, gas regulators, towers, and drip trays at Beer Craft Gear. Owned by Beer Babes Family LTD.",
+  description: "Shop commercial-grade kegerators, tapping systems, gas regulators, towers, and drip trays at Beer Craft Gear. Owned by FUNKY BUDDHA BREWERY LLC.",
   icons: {
     icon: "/favicon.png",
   },

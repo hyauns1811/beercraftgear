@@ -14,7 +14,7 @@ export default function ReturnsPolicyPage() {
         <p className="text-muted">Last Updated: June 5, 2026</p>
 
         <p>
-          At <strong>Beer Craft Gear</strong> (beercraftgear.com), owned and operated by <strong>BEER BABES FAMILY LTD</strong>, we take pride in the quality of our draft beer equipment. If you are not completely satisfied with your purchase, you may return the item(s) to us.
+          At <strong>Beer Craft Gear</strong> (beercraftgear.com), owned and operated by <strong>FUNKY BUDDHA BREWERY LLC</strong>, we take pride in the quality of our draft beer equipment. If you are not completely satisfied with your purchase, you may return the item(s) to us.
         </p>
 
         <h2>1. 30-Day Return Window</h2>
@@ -103,8 +103,8 @@ export default function ReturnsPolicyPage() {
         </p>
         <p style={{ paddingLeft: '16px', borderLeft: '3px solid var(--primary)', color: 'var(--text-main)' }}>
           <strong>Beer Craft Gear - Returns Department</strong><br />
-          163 Dalhurst Way NW<br />
-          Calgary AB T3A 1P1 CA
+          1201 NE 38TH ST, A-1<br />
+          OAKLAND PARK, FL 33334
         </p>
 
         <h2>7. Contact Us</h2>
@@ -114,7 +114,7 @@ export default function ReturnsPolicyPage() {
         <p>
           Email: <a href="mailto:cs@beercraftgear.com" style={{ color: 'var(--primary)' }}>cs@beercraftgear.com</a><br />
           Phone: <strong>+1 (416) 925-6222</strong><br />
-          Operating Hours: Mon - Fri: 9:00 AM - 5:00 PM (MST)
+          Operating Hours: Mon - Fri: 9:00 AM - 5:00 PM (EST)
         </p>
       </div>
     </div>

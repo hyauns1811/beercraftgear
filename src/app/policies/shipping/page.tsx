@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'Shipping & Delivery Policy | Beer Craft Gear',
-  description: 'Detailed shipping rates, handling times, transit times, and delivery policies for Beer Craft Gear, owned by Beer Babes Family LTD.',
+  description: 'Detailed shipping rates, handling times, transit times, and delivery policies for Beer Craft Gear, owned by FUNKY BUDDHA BREWERY LLC.',
 };
 
 export default function ShippingPolicyPage() {
@@ -14,7 +14,7 @@ export default function ShippingPolicyPage() {
         <p className="text-muted">Last Updated: June 5, 2026</p>
         
         <p>
-          At <strong>Beer Craft Gear</strong> (beercraftgear.com), owned and operated by <strong>BEER BABES FAMILY LTD</strong>, we aim to deliver your draft beer equipment quickly and securely. Below you will find detailed information about our shipping methods, timelines, and costs.
+          At <strong>Beer Craft Gear</strong> (beercraftgear.com), owned and operated by <strong>FUNKY BUDDHA BREWERY LLC</strong>, we aim to deliver your draft beer equipment quickly and securely. Below you will find detailed information about our shipping methods, timelines, and costs.
         </p>
 
         <h2>1. Shipping Regions & Destinations</h2>
@@ -39,7 +39,7 @@ export default function ShippingPolicyPage() {
           Our operations run Monday through Friday, excluding statutory holidays.
         </p>
         <ul>
-          <li><strong>Order Cut-off Time</strong>: 5:00 PM (Mountain Standard Time - MST). Orders placed after this time will be processed the following business day.</li>
+          <li><strong>Order Cut-off Time</strong>: 5:00 PM (Eastern Standard Time - EST). Orders placed after this time will be processed the following business day.</li>
           <li><strong>Order Handling Time</strong>: 1 - 2 business days. During this time, we verify stock, pack, and prepare your items for shipment.</li>
           <li><strong>Order Transit Time</strong>: 3 - 7 business days. This is the time it takes for carriers to deliver package(s) from our warehouse to your doorstep.</li>
         </ul>
@@ -75,9 +75,9 @@ export default function ShippingPolicyPage() {
           If you have questions about our shipping procedures or need support, please contact us at:
         </p>
         <p style={{ paddingLeft: '16px', borderLeft: '3px solid var(--primary)', color: 'var(--text-main)' }}>
-          <strong>BEER BABES FAMILY LTD</strong><br />
-          163 Dalhurst Way NW<br />
-          Calgary AB T3A 1P1 CA<br />
+          <strong>FUNKY BUDDHA BREWERY LLC</strong><br />
+          1201 NE 38TH ST, A-1<br />
+          OAKLAND PARK, FL 33334<br />
           Phone: +1 (416) 925-6222<br />
           Email: cs@beercraftgear.com
         </p>

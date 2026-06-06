@@ -13,7 +13,7 @@ export default function BillingTermsPage() {
         <p className="text-muted">Last Updated: June 5, 2026</p>
 
         <p>
-          At <strong>Beer Craft Gear</strong> (beercraftgear.com), a website owned and operated by <strong>BEER BABES FAMILY LTD</strong>, we ensure a secure shopping environment. This document outlines our accepted payment methods, billing practices, and transaction security procedures.
+          At <strong>Beer Craft Gear</strong> (beercraftgear.com), a website owned and operated by <strong>FUNKY BUDDHA BREWERY LLC</strong>, we ensure a secure shopping environment. This document outlines our accepted payment methods, billing practices, and transaction security procedures.
         </p>
 
         <h2>1. Secure Payment Processing (Stripe)</h2>
@@ -65,9 +65,9 @@ export default function BillingTermsPage() {
           For billing questions, payment inquiries, or disputes, please contact our accounting and billing support department:
         </p>
         <p style={{ paddingLeft: '16px', borderLeft: '3px solid var(--primary)', color: 'var(--text-main)' }}>
-          <strong>BEER BABES FAMILY LTD</strong><br />
-          163 Dalhurst Way NW<br />
-          Calgary AB T3A 1P1 CA<br />
+          <strong>FUNKY BUDDHA BREWERY LLC</strong><br />
+          1201 NE 38TH ST, A-1<br />
+          OAKLAND PARK, FL 33334<br />
           Phone: +1 (416) 925-6222<br />
           Email: cs@beercraftgear.com
         </p>

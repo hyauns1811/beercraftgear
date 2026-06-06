@@ -80,9 +80,9 @@ export default function Footer() {
               <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
                 <MapPin size={18} style={{ color: 'var(--primary)', flexShrink: 0, marginTop: '3px' }} />
                 <span>
-                  <strong>BEER BABES FAMILY LTD</strong><br />
-                  163 Dalhurst Way NW<br />
-                  Calgary AB T3A 1P1 CA
+                  <strong>FUNKY BUDDHA BREWERY LLC</strong><br />
+                  1201 NE 38TH ST, A-1<br />
+                  OAKLAND PARK, FL 33334
                 </span>
               </li>
               <li style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
@@ -95,7 +95,7 @@ export default function Footer() {
               </li>
               <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
                 <Clock size={16} style={{ color: 'var(--primary)', marginTop: '3px' }} />
-                <span>Mon - Fri: 9:00 AM - 5:00 PM (MST)</span>
+                <span>Mon - Fri: 9:00 AM - 5:00 PM (EST)</span>
               </li>
             </ul>
           </div>
@@ -116,7 +116,7 @@ export default function Footer() {
               © {new Date().getFullYear()} Beer Craft Gear. All Rights Reserved.
             </p>
             <p style={{ fontSize: '0.75rem', marginTop: '4px', color: '#64748b' }}>
-              <strong>beercraftgear.com</strong> is a website owned and operated by <strong>BEER BABES FAMILY LTD</strong>, a registered company in Canada.
+              <strong>beercraftgear.com</strong> is a website owned and operated by <strong>FUNKY BUDDHA BREWERY LLC</strong>, a registered company in the United States.
             </p>
           </div>
 

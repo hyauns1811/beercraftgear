@@ -126,7 +126,7 @@ export default function OrderConfirmationPage() {
           textAlign: 'center'
         }}>
           <p style={{ marginBottom: '8px' }}>
-            Need help? Contact the support department of <strong>BEER BABES FAMILY LTD</strong>:
+            Need help? Contact the support department of <strong>FUNKY BUDDHA BREWERY LLC</strong>:
           </p>
           <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap' }}>
             <span style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}><Phone size={12} /> +1 (416) 925-6222</span>
